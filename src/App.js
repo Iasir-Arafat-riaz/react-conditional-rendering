@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+  const [familiar, setFamiliar]=useState(false)
   return (
     <div className="App">
-    <P>STAY CODING</P>
-     <p>what's up ?</p>
-    <h1>hlw</h1>
+      <h2>Is Familiar : {familiar.toString()}</h2>
+      <button>Toggle Friend</button>
+    
+    
     </div>
   );
 }
