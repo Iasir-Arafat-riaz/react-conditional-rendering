@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <h2>Is Familiar : {familiar.toString()}</h2>
-      <button>Toggle Friend</button>
-    
+      <button onClick={()=>setFamiliar(!familiar)}>Toggle Friend</button>
+    <h1>hi</h1>
     
     </div>
   );
