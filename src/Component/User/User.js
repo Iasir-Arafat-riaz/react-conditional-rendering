@@ -1,6 +1,7 @@
 import React from 'react';
 
-const User = () => {
+const User = (props) => {
+    const familiar =
     return (
         <div>
             
